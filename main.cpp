@@ -11,6 +11,7 @@ void mostrarDatos(string);
 
 int main()
 {
+    cout<<"Consulta del clima con la api de openweathermap.org"<<endl;
     string nombre;
     cout << "Ingrese el nombre deciudad: ";
     cin >> nombre;
@@ -23,7 +24,7 @@ int main()
 void descargar(string nombre){
     cout<<"---------------------------\n\tDescarga"<<endl;
     cout<<"---------------------------"<<endl;
-    string descarga="wget \"http://api.openweathermap.org/data/2.5/weather?q="+nombre+"&mode=xml\"";
+    string descarga="wget -N -nv \"http://api.openweathermap.org/data/2.5/weather?q="+nombre+"&mode=xml\"";
     system(descarga.c_str());
 }
 
@@ -40,6 +41,9 @@ void mostrarDatos(string nombre){
     XMLDocument doc;
     string archivo = "weather?q="+nombre+"&mode=xml";
     doc.LoadFile(archivo.c_str());
+    if(doc.Error()){
+        borrar(nombre);
+    }
     XMLElement* Current = doc.FirstChildElement("current");
     XMLElement* City = Current->FirstChildElement("city");
     cout<<"Ciudad: "<<City->Attribute("name")<<endl;
