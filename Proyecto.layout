@@ -2,6 +2,9 @@
 <CodeBlocks_layout_file>
 	<ActiveTarget name="Debug" />
 	<File name="main.cpp" open="1" top="1" tabpos="0">
-		<Cursor position="1508" topLine="28" />
+		<Cursor position="1929" topLine="36" />
+	</File>
+	<File name="tinyxml2.h" open="0" top="0" tabpos="0">
+		<Cursor position="34219" topLine="1192" />
 	</File>
 </CodeBlocks_layout_file>

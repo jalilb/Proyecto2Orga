@@ -42,6 +42,7 @@ void mostrarDatos(string nombre){
     string archivo = "weather?q="+nombre+"&mode=xml";
     doc.LoadFile(archivo.c_str());
     if(doc.Error()){
+        cout<<"ERROR: No existen resultados para esta busqueda"<<endl;
         borrar(nombre);
     }
     XMLElement* Current = doc.FirstChildElement("current");
