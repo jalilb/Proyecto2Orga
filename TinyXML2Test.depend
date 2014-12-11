@@ -1,0 +1,54 @@
+# depslib dependency file v1.0
+1415717073 source:/home/turupawn/Projects/Codeblocks/Clases/OrgaDeArchivos/TinyXML2Test/tinyxml2.cpp
+	"tinyxml2.h"
+	<new>
+	<stddef.h>
+	<cstddef>
+
+1415717045 /home/turupawn/Projects/Codeblocks/Clases/OrgaDeArchivos/TinyXML2Test/tinyxml2.h
+	<ctype.h>
+	<limits.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdarg.h>
+	<cctype>
+	<climits>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<cstdarg>
+	<android/log.h>
+	<assert.h>
+
+1415717384 source:/home/turupawn/Projects/Codeblocks/Clases/OrgaDeArchivos/TinyXML2Test/main.cpp
+	<iostream>
+	"tinyxml2.h"
+
+1417796341 source:/home/jburbara/Proyectos/EjemploXML/tinyxml2.cpp
+	"tinyxml2.h"
+	<new>
+	<stddef.h>
+	<cstddef>
+
+1417796341 /home/jburbara/Proyectos/EjemploXML/tinyxml2.h
+	<ctype.h>
+	<limits.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdarg.h>
+	<cctype>
+	<climits>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<cstdarg>
+	<android/log.h>
+	<assert.h>
+
+1417797697 source:/home/jburbara/Proyectos/EjemploXML/main.cpp
+	<iostream>
+	<stdlib.h>
+	"tinyxml2.h"
+

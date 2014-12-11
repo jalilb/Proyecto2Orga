@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1418276741 source:/home/jalil/Proyectos/Proyecto/main.cpp
+	<iostream>
+	<stdlib.h>
+	"tinyxml2.h"
+
+1417796341 /home/jalil/Proyectos/Proyecto/tinyxml2.h
+	<ctype.h>
+	<limits.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdarg.h>
+	<cctype>
+	<climits>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<cstdarg>
+	<android/log.h>
+	<assert.h>
+
+1417796341 source:/home/jalil/Proyectos/Proyecto/tinyxml2.cpp
+	"tinyxml2.h"
+	<new>
+	<stddef.h>
+	<cstddef>
+
